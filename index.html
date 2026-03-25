@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RYBENTO — Свежая рыба в Рязани</title>
+    <style>
+        /* Базовые настройки стиля Apple */
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #f5f5f7; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            padding: 40px 20px; 
+            margin: 0; 
+            color: #1d1d1f; 
+        }
+        
+        .logo { font-size: 38px; font-weight: 800; letter-spacing: -1.5px; margin-bottom: 5px; color: #000; }
+        .tagline { font-size: 14px; color: #86868b; margin-bottom: 35px; text-transform: uppercase; letter-spacing: 2px; font-weight: 500; }
+
+        /* Кнопки ссылок */
+        .container { width: 100%; max-width: 400px; }
+        
+        .link-card { 
+            width: 100%; 
+            margin-bottom: 15px; 
+            padding: 20px; 
+            border-radius: 20px; 
+            text-decoration: none; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-weight: 600; 
+            font-size: 18px; 
+            box-sizing: border-box;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .link-card:active { transform: scale(0.97); opacity: 0.9; }
+
+        /* Цветовые схемы под Apple/Соцсети */
+        .phone { background: #34c759; color: #fff; box-shadow: 0 4px 15px rgba(52, 199, 89, 0.3); }
+        .bot { background: #0088cc; color: #fff; box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3); }
+        .channel { background: #fff; color: #0088cc; border: 2px solid #0088cc; }
+        .max { background: #000; color: #fff; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); }
+        .insta { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: #fff; }
+
+        /* Информация внизу */
+        footer { margin-top: 40px; text-align: center; color: #86868b; font-size: 14px; line-height: 1.6; }
+        .address { font-weight: 600; color: #1d1d1f; margin-bottom: 5px; display: block; }
+    </style>
+</head>
+<body>
+
+    <div class="logo">RYBENTO</div>
+    <div class="tagline">Рыбный бутик • Рязань</div>
+
+    <div class="container">
+        <!-- Кнопка Позвонить -->
+        <a href="tel:+79307866186" class="link-card phone">📞 Позвонить для заказа</a>
+
+        <!-- Телеграм Бот (Прайс) -->
+        <a href="https://t.me/RYBENTO_RZN_Bot" target="_blank" class="link-card bot">🤖 Прайс в Telegram-боте</a>
+
+        <!-- Телеграм Канал -->
+        <a href="https://t.me/rybento" target="_blank" class="link-card channel">📣 Наш Telegram-канал</a>
+
+        <!-- MAX -->
+        <a href="https://max.ru/join/Rl8DvK_qF9j_jJqqX2UdYYRZ2SZwjjJSySSGTXMVHsA" target="_blank" class="link-card max">💬 Мы в Мах</a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/rybento_rzn?igsh=MTZ1ZDI5aTcweWJhaA==" target="_blank" class="link-card insta">📸 Наш Instagram</a>
+    </div>
+
+    <footer>
+        <span class="address">📍 Рязань, ул. Октябрьская, 65</span>
+        Доставка от 8 000 ₽ — 0 ₽<br>
+        Свежий улов каждую неделю
+    </footer>
+
+</body>
+</html>
